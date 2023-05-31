@@ -11,4 +11,4 @@ COPY . .
 
 RUN npm run build
 
-ENTRYPOINT ['node', 'dist/main.js']
+ENTRYPOINT node dist/main.js
