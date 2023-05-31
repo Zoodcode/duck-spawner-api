@@ -1,4 +1,4 @@
-FROM node:18-alipne
+FROM node:18.6.0-alipne
 
 WORKDIR /usr/src/app
 
